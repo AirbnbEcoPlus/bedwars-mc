@@ -1,0 +1,192 @@
+lobby:
+  world: world
+  pos: 0, 0, 0
+market:
+  laine:
+    name: 35
+    money: iron
+    price: 4
+    type: block
+    amount: 16
+    slot: 0
+  clay:
+    name: 337
+    money: iron
+    price: 12
+    type: block
+    amount: 16
+    slot: 1
+  glass:
+    name: 20
+    money: iron
+    price: 12
+    type: block
+    amount: 4
+    slot: 2
+  end:
+    name: 121
+    money: iron
+    price: 24
+    type: block
+    amount: 12
+    slot: 3
+  ladder:
+    name: 65
+    money: iron
+    price: 4
+    type: block
+    amount: 16
+    slot: 4
+  wood:
+    name: 4
+    money: gold
+    price: 4
+    type: block
+    slot: 5
+    amount: 16
+  obsidian:
+    name: 49
+    money: emerald
+    price: 4
+    type: block
+    slot: 5
+    amount: 4
+  bow:
+    name: 261
+    money: gold
+    price: 12
+    type: weapon
+    slot: 0
+    amount: 1
+  arrow:
+    name: 262
+    money: gold
+    price: 2
+    type: weapon
+    slot: 1
+    amount: 8
+  stone_sword:
+    name: 272
+    money: iron
+    price: 10
+    type: weapon
+    slot: 2
+    amount: 1
+  iron_sword:
+    name: 267
+    money: gold
+    price: 7
+    type: weapon
+    slot: 3
+    amount: 1
+  diamond_sword:
+    name: 276
+    money: emerald
+    price: 4
+    type: weapon
+    slot: 4
+    amount: 1
+  apple:
+    name: 322
+    money: gold
+    price: 3
+    type: object
+    slot: 0
+    amount: 1
+  tnt:
+    name: 46
+    money: gold
+    price: 4
+    type: object
+    slot: 1
+    amount: 1
+  water:
+    name: 326
+    money: gold
+    price: 3
+    type: object
+    slot: 2
+    amount: 1
+  sponge:
+    name: 19
+    money: gold
+    price: 3
+    type: object
+    slot: 3
+    amount: 1
+  flint:
+    name: 259
+    money: gold
+    price: 2
+    type: object
+    slot: 4
+    amount: 1
+arenas:
+  arena2:
+    name: arena2
+    maxPlayers: 4
+    minPlayers: 2
+    waitLobby: 0,78,0
+    teamSpawns:
+      - RED:
+          team: RED
+          location: 14,78,0
+      - ORANGE:
+          team: ORANGE
+          location: 0,78,-10
+      - PURPLE:
+          team: PURPLE
+          location: -12,78,0
+      - PINK:
+          team: PINK
+          location: 0,78,11
+    bedLocations:
+      - RED:
+          team: RED
+          location: 14,88,0
+      - ORANGE:
+          team: ORANGE
+          location: 0,88,-10
+      - PURPLE:
+          team: PURPLE
+          location: -12,88,0
+      - PINK:
+          team: PINK
+          location: 0,88,11
+    teams:
+      - RED
+      - ORANGE
+      - PURPLE
+      - PINK
+    diamsSpawners:
+      - 0,65,0
+      - 0,65,-2
+      - 0.5,65,3.6
+    emeraldsSpawners:
+      - -2.5,80,3.5
+      - 3,5.80,3.5
+      - 3,5,80,-2,5
+      - -2.5,80,-2.5
+    teamSpawners:
+      - RED:
+          team: RED
+          location: 17.5,78,0.5
+      - ORANGE:
+          team: ORANGE
+          location: 0.5,78,-13.5
+      - PURPLE:
+          team: PURPLE
+          location: -15.5,78,0.5
+      - PINK:
+          team: PINK
+          location: 0.5,78,14.5
+
+
+
+
+
+
+
+
+
+
